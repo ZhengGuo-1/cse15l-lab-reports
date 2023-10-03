@@ -15,7 +15,7 @@
 * why I got this:the reason why these three name appear in the terminal is because ls command shows the name of files and folders in the directory passed by the argument
 * whether the output is an errer: not an error
 3. Share an example of using the command with a path to a file as an argument.
-![image]截屏2023-10-03 下午4.02.23.png
+![image](截屏2023-10-03 下午4.02.23.png)
 * working directory:/home/lecture1
 * what I got:/home/lecture1/Hello.java appear in the terminal when I run the ls command
 * why I got this:the reason why /home/lecture1/Hello.java is gotten is because when the argument is the path to a file ls cannot show the information inside a file. Therefore, the output in the terminal is the same as what I type in the terminal
