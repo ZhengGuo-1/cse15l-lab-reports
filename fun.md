@@ -19,7 +19,8 @@
 * working directory:/home/lecture1
 * what I got:/home/lecture1/Hello.java appear in the terminal when I run the ls command
 * why I got this:the reason why /home/lecture1/Hello.java is gotten is because when the argument is the path to a file ls cannot show the information inside a file. Therefore, the output in the terminal is the same as what I type in the terminal
-* whether the output is an errer: This is an error, because ls only work correctly when there is no argument or a argument with a path to a directory.  
+* whether the output is an errer: This is an error, because ls only work correctly when there is no argument or a argument with a path to a directory.
+
 ---
 ## cd
 1. Share an example of using the command with no arguments.
@@ -40,6 +41,7 @@
 * what I got:bash: :after cd with argument /home/lecture1/Hello.java is called "cd: /home/lecture1/Hello.java: Not a directory" appears in the terminal next line.
 * why I got this:the reason why "cd: /home/lecture1/Hello.java: Not a directory" is because cd is a command to change the working directory, not files. Then, path to a file is a invalid argument for cd.
 * whether the output is an errer: not an error
+
 ---
 ## cat
 1. Share an example of using the command with no arguments.
