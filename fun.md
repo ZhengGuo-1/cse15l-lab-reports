@@ -17,7 +17,7 @@
 3. Share an example of using the command with a path to a file as an argument.
 ![image](截屏2023-10-03 下午4.02.23.png)
 * working directory:/home/lecture1
-* what I got:after ls with argument /home/lecture1/Hello.java is called, /home/lecture1/Hello.java is called appear in the terminal in the next line
+* what I got:after ls with argument /home/lecture1/Hello.java is called, /home/lecture1/Hello.java appear in the terminal in the next line
 * why I got this:the reason why /home/lecture1/Hello.java is gotten is because ls command is used to list the contents of a directory, and when a specific file path is provided to it, it confirms the existence of that file.
 * whether the output is an errer: not an error
 
