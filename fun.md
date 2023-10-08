@@ -5,28 +5,28 @@
 1. Share an example of using the command with no arguments.
 ![image](截屏2023-10-03 下午3.44.51.png)
 * working directory:/home/lecture1
-* what I got:Hello.java  messages  README appear in the terminal when I run the ls command
+* what I got:after ls with no argument is called, three names Hello.java, messages and README appear in the terminal in the next line
 * why I got this:the reason why these three name appear in the terminal is because ls command shows the name of files and folders in the current directory
 * whether the output is an errer: not an error
 2. Share an exmaple of using the command with a path to a directory as an argument.
 ![image](截屏2023-10-03 下午3.54.32.png)
 * working directory:/home/lecture1
-* what I got:Hello.java  messages  README appear in the terminal when I run the ls command
+* what I got:after ls with argument /home/lecture1 is called, three names Hello.java,messages and README appear in the terminal in the next line
 * why I got this:the reason why these three name appear in the terminal is because ls command shows the name of files and folders in the directory passed by the argument
 * whether the output is an errer: not an error
 3. Share an example of using the command with a path to a file as an argument.
 ![image](截屏2023-10-03 下午4.02.23.png)
 * working directory:/home/lecture1
-* what I got:/home/lecture1/Hello.java appear in the terminal when I run the ls command
-* why I got this:the reason why /home/lecture1/Hello.java is gotten is because when the argument is the path to a file ls cannot show the information inside a file. Therefore, the output in the terminal is the same as what I type in the terminal
-* whether the output is an errer: This is an error, because ls only work correctly when there is no argument or a argument with a path to a directory.
+* what I got:after ls with argument /home/lecture1/Hello.java is called, /home/lecture1/Hello.java is called appear in the terminal in the next line
+* why I got this:the reason why /home/lecture1/Hello.java is gotten is because ls command is used to list the contents of a directory, and when a specific file path is provided to it, it confirms the existence of that file.
+* whether the output is an errer: not an error
 
 ---
 ## cd
 1. Share an example of using the command with no arguments.
 ![image](截屏2023-10-08 上午11.40.13.png)
 * working directory:/home/lecture1
-* what I got:when cd is called the working directory secified before the $ is user@sahara ~/lecture1, after cd is called, the working directory secified before the $ becomes user@sahara ~
+* what I got:when cd with no argument is called the working directory secified before the $ changes from user@sahara ~/lecture1 to user@sahara ~
 * why I got this:the reason why there is a change before the $ is because cd with no argument will change the directory to the home directory. 
 * whether the output is an errer: not an error
 2. Share an exmaple of using the command with a path to a directory as an argument.
@@ -48,7 +48,7 @@
 ![image](截屏2023-10-08 下午12.09.43.png)
 * working directory:/home
 * what I got:when cat with no arguments is called, nothing appears in the terminal.
-* why I got this:the reason why nothing appears in the terminal is because cat's primary purpose is todisplay the content of files. If there is no path provided for cat command, it will wait for you to type some text as input to print out. 
+* why I got this:the reason why nothing appears in the terminal is because cat's primary purpose is to display the content of files. If there is no path provided for cat command, it will wait for you to type some text as input to print out. 
 * whether the output is an errer: not an error
 2. Share an exmaple of using the command with a path to a directory as an argument.
 ![image](截屏2023-10-08 下午12.10.19.png)
@@ -59,6 +59,6 @@
 3. Share an example of using the command with a path to a file as an argument.
 ![image](截屏2023-10-08 下午12.10.49.png)
 * working directory:/home
-* what I got:content in the Hello.java file get printed out in the terminal
+* what I got:after cat with argument /home/lecture1/Hello.java, content in the Hello.java file get printed out in the terminal
 * why I got this:the reason why content in the Hello.java file get printed out in the terminal is because when the path to a file is provided to cat command, cat will display the contents of the file
 * whether the output is an errer: not an error
