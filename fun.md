@@ -4,7 +4,7 @@
 ## ls
 1. Share an example of using the command with no arguments.
 ![image](截屏2023-10-03 下午3.44.51.png)
-* working directory:'/home/lecture1'
+* working directory:`/home/lecture1`
 * what I got:after 'ls' with no argument is called, three names 'Hello.java', 'messages' and 'README' appear in the terminal in the next line
 * why I got this:the reason why these three name appear in the terminal is because 'ls' command shows the name of files and folders in the current directory
 * whether the output is an errer: not an error
