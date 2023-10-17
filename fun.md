@@ -37,7 +37,7 @@
 * whether the output is an errer: not an error
 3. Share an example of using the command with a path to a file as an argument.
 ![image](截屏2023-10-08 上午11.42.17.png)
-* working directory:`/home/lecture1`
+* working directory:`/home`
 * what I got:bash: :after `cd` with argument `/home/lecture1/Hello.java` is called `cd: /home/lecture1/Hello.java: Not a directory` appears in the terminal next line.
 * why I got this:the reason why `cd: /home/lecture1/Hello.java: Not a directory` is because `cd` is a command to change the working directory, not files. Then, path to a file is a invalid argument for `cd`.
 * whether the output is an errer: not an error
