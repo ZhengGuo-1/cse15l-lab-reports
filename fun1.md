@@ -30,5 +30,5 @@ A terminal interaction where you log into ieng6 with your course-specific accoun
 
 ---
 # Part 3
-The first thing that I did not know before is that I can use `ssh` to connected to a computer in the CSE basement in my own computer. Once I connect to the remote server, I can check the folders and files in the server, which is cool and new for me. 
+The first thing that I did not know before is that I can use `ssh` to connect to a computer in the CSE basement in my own computer. Once I connect to the remote server, I can check the folders and files in the server, which is cool and new for me. 
 The second thing that I did not know before is that I can use the java code to create a web server. The webpages generated from the server depends on the path and query in the URL.
