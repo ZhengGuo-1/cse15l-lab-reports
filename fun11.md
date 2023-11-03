@@ -22,7 +22,7 @@ public void testReverseInPlace2() {
     assertArrayEquals(new int[]{5,4,3,2,1}, input1);
 }
 ```
-Failure-inducing input:{1,2,3,4,5}
+Failure-inducing input:`{1,2,3,4,5}`
 
 ---
 
@@ -35,7 +35,7 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{3}, input1);
 }
 ```
-An input that doesn’t induce a failure: {3}
+An input that doesn’t induce a failure: `{3}`
 
 ---
 
@@ -110,7 +110,7 @@ This option displays all directoris in the specific directories. This is useful 
 
 option 3: Search text within multiple files. Found from https://www.geeksforgeeks.org/find-command-in-linux-with-examples/  
 a.
-commands: ` find ./ -type f -name "*.txt" -exec grep 'EXECUTIVE'  {} \;`
+commands: `find ./ -type f -name "*.txt" -exec grep 'EXECUTIVE'  {} \;`
 output: 
 ```
 EXECUTIVE SUMMARY
