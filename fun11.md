@@ -70,11 +70,14 @@ Option 1: Search for a file with a specific name in a specific directory. Found 
 a. 
 commands: `find technical -name "chapter-1.txt"`
 output: `technical/911report/chapter-1.txt`  
+
+**The first example for option 1 recursively find a file named "chapter-1.txt" in the technical directory, the output will be the path for the target file. This command line is useful because it can help us confirm the existance of the file in that directory.**
+
 b. 
 commands: `find technical -name "1468-6708-3-1.txt"`
 output: `technical/biomed/1468-6708-3-1.txt`
 
-This option searches a file with name in a directory. This is useful because it can help us confirm the existance of the file in that directory.
+**The second example for option 1 recursively find a file named "1468-6708-3-1.txt" in the technical directory, the output will be the path for the target file. This command line is useful because it can help us confirm the existance of the file in that directory.**
 
 Option 2: Search for all directories in a specific directory. Found from https://www.geeksforgeeks.org/find-command-in-linux-with-examples/  
 a.
@@ -93,6 +96,9 @@ technical/plos
 technical/biomed
 technical/911report
 ```
+
+**The first example for option 2 is to recursively display all directories in the technical directory. This command line is useful because it can help us to see the directory structure in the technical directory.**
+
 b.
 commands: `find technical/government -type d`
 output: 
@@ -106,7 +112,7 @@ technical/government/Post_Rate_Comm
 technical/government/Media
 ```
 
-This option displays all directoris in the specific directories. This is useful because it can help us to see the directory structure. 
+**The second example for the option 2 is to recursively display all directories in the government subdirectory in the technical directory. This command line is useful because it can help us to see the directory structure speciicly in the government subdirectory.**
 
 option 3: Search text within multiple files. Found from https://www.geeksforgeeks.org/find-command-in-linux-with-examples/  
 a.
@@ -119,11 +125,14 @@ SERVICE AND EXECUTIVE OFFICE FOR IMMIGRATION REVIEW ENTITLED
 EXECUTIVE GUIDE
 EXECUTIVE COMPENSATION:
 ```
+
+**The first example for the option 3 is to search text with the key word 'EXECUTIVE' in all txt files within the current directory, and the output contains all lines including the key word. This is useful because it can help us to see how many lines containing the words that we care.**
+
 b. 
 commands: `find ./ -type f -name "*.txt" -exec grep 'APRIL'  {} \;`
 output: `A SPECIAL REPORT to CONGRESS�APRIL 30, 2000`
 
-This option is to print lines which have the specific words. This is useful because it can help us to see how many lines containing the words that we care. 
+**The second example for the option 3 is to search text with the key word 'APRIL' in all txt files within the current directory, and the output contains all lines including the key word. This is useful because it can help us to see how many lines containing the words that we care.**
 
 option 4: search files with specific pattern. Found from https://www.geeksforgeeks.org/find-command-in-linux-with-examples/  
 a.
@@ -148,6 +157,8 @@ technical/911report/chapter-12.txt
 technical/911report/chapter-10.txt
 technical/911report/chapter-11.txt
 ```
+**The first example for the option 4 is to recursively search all text files in the 911report subdirectory in the technical directory, the output contains paths for the text files. This is useful because it can help us to display all same type of files clearly.**
+
 b.
 commands: `find lib -name "*.jar"`
 output:
@@ -155,6 +166,5 @@ output:
 lib/junit-4.13.2.jar
 lib/hamcrest-core-1.3.jar
 ```
-This option is to list all the files with same pattern in a specific directory. This is useful because it can help us to display all same type of files clearly. 
-
+**The second example for the option 4 is to search all jar files in the lib directory, the output contains paths for the jar files. This is useful because it can help us to display all same type of files clearly.**
 
